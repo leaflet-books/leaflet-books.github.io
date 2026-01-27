@@ -251,6 +251,17 @@ hr {
   }
 }
 
+/* === Home Content === */
+.home-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-content h2 {
+  margin-top: 0;
+}
+
 /* === Signup Form === */
 .signup-form {
   margin-top: 2rem;
