@@ -241,4 +241,60 @@ hr {
   .site-header .logo span {
     display: none;
   }
+  
+  .signup-row {
+    flex-direction: column;
+  }
+  
+  .signup-form input[type="submit"] {
+    width: 100%;
+  }
+}
+
+/* === Signup Form === */
+.signup-form {
+  margin-top: 2rem;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
+.signup-row {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-form input[type="email"] {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: var(--font-sans);
+}
+
+.signup-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.signup-form input[type="submit"] {
+  padding: 0.75rem 1.5rem;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-sans);
+}
+
+.signup-form input[type="submit"]:hover {
+  background: #6a8a65;
 }

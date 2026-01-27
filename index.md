@@ -22,6 +22,12 @@ Point your phone at any bookshelf. Leaflet reads the spines, looks up ratings fr
 
 ---
 
-*Sign up for launch updates coming soon.*
+<form action="https://buttondown.com/api/emails/embed-subscribe/Larlyssa" method="post" class="signup-form">
+  <label for="bd-email">Get notified when we launch:</label>
+  <div class="signup-row">
+    <input type="email" name="email" id="bd-email" placeholder="you@email.com" required />
+    <input type="submit" value="Notify Me" />
+  </div>
+</form>
 
 </div>
