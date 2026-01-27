@@ -19,7 +19,7 @@ title: Home
   
   <hr>
   
-  <form action="https://buttondown.com/api/emails/embed-subscribe/Larlyssa" method="post" class="signup-form" id="signup-form">
+  <form action="https://buttondown.com/api/emails/embed-subscribe/leaflet-app" method="post" class="signup-form" id="signup-form">
     <label for="bd-email">Get notified when we launch:</label>
     <div class="signup-row">
       <input type="email" name="email" id="bd-email" placeholder="you@email.com" required />
