@@ -3,16 +3,9 @@ layout: default
 title: Terms of Service
 ---
 
-<div class="page-content" markdown="1">
-<div class="container" markdown="1">
-
-<div class="page-header">
-
 # Terms of Service
 
-Last updated: January 2026
-
-</div>
+*Last updated: January 2026*
 
 By using Leaflet, you agree to these terms. They're written in plain English because we want you to actually read them.
 
@@ -68,6 +61,3 @@ We may update these terms. Continued use after changes means you accept the new 
 ## Contact
 
 Questions? Email us at lfr2lsr@gmail.com.
-
-</div>
-</div>

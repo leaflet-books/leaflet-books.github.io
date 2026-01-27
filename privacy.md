@@ -3,16 +3,9 @@ layout: default
 title: Privacy Policy
 ---
 
-<div class="page-content" markdown="1">
-<div class="container" markdown="1">
-
-<div class="page-header">
-
 # Privacy Policy
 
-Last updated: January 2026
-
-</div>
+*Last updated: January 2026*
 
 Leaflet is designed with your privacy in mind. Here's exactly what we do (and don't do) with your data.
 
@@ -75,6 +68,3 @@ When you tap to buy a book, we may use affiliate links to Bookshop.org or Amazon
 ## Contact
 
 Questions about privacy? Email us at lfr2lsr@gmail.com.
-
-</div>
-</div>
