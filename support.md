@@ -3,8 +3,8 @@ layout: default
 title: Support
 ---
 
-<div class="page-content">
-<div class="container">
+<div class="page-content" markdown="1">
+<div class="container" markdown="1">
 
 <div class="page-header">
 
