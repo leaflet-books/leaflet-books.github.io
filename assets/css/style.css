@@ -195,11 +195,12 @@ hr {
 
 /* === Page Content === */
 .page-content {
-  padding: 3rem 0;
-}
-
-.page-content .container {
-  max-width: 700px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: var(--spacing);
+  padding-right: var(--spacing);
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .page-header {
