@@ -1,0 +1,14 @@
+title: Leaflet
+description: See past the cover — discover books you'll actually love
+url: https://fayrose.github.io
+baseurl: /leaflet-docs
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
