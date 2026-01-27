@@ -12,7 +12,7 @@ title: Home
   <p class="subtitle">iOS & Android</p>
 </section>
 
-<div class="container" style="text-align: center; max-width: 600px;">
+<div class="container" style="text-align: center; max-width: 600px;" markdown="1">
 
 ## What is Leaflet?
 
