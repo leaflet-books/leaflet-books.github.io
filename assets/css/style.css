@@ -309,3 +309,21 @@ hr {
 .signup-form input[type="submit"]:hover {
   background: #6a8a65;
 }
+
+.signup-form input[type="submit"]:disabled {
+  background: #a0b89a;
+  cursor: not-allowed;
+}
+
+.signup-success {
+  display: none;
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.signup-error {
+  display: none;
+  color: #c97b7b;
+  margin-top: 0.5rem;
+}

@@ -19,11 +19,42 @@ title: Home
   
   <hr>
   
-  <form action="https://buttondown.com/api/emails/embed-subscribe/Larlyssa" method="post" class="signup-form">
+  <form action="https://buttondown.com/api/emails/embed-subscribe/Larlyssa" method="post" class="signup-form" id="signup-form">
     <label for="bd-email">Get notified when we launch:</label>
     <div class="signup-row">
       <input type="email" name="email" id="bd-email" placeholder="you@email.com" required />
       <input type="submit" value="Notify Me" />
     </div>
+    <p class="signup-success" id="signup-success">✓ Thanks! We'll email you when Leaflet launches.</p>
+    <p class="signup-error" id="signup-error">Something went wrong. Try again?</p>
   </form>
+
+  <script>
+    document.getElementById('signup-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const form = this;
+      const email = document.getElementById('bd-email').value;
+      const success = document.getElementById('signup-success');
+      const error = document.getElementById('signup-error');
+      const submitBtn = form.querySelector('input[type="submit"]');
+      
+      submitBtn.value = 'Sending...';
+      submitBtn.disabled = true;
+      
+      try {
+        const response = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          mode: 'no-cors'
+        });
+        form.querySelector('.signup-row').style.display = 'none';
+        form.querySelector('label').style.display = 'none';
+        success.style.display = 'block';
+      } catch (err) {
+        error.style.display = 'block';
+        submitBtn.value = 'Notify Me';
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
 </div>
