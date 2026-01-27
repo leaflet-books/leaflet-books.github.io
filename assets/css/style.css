@@ -195,12 +195,15 @@ hr {
 
 /* === Page Content === */
 .page-content {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-left: var(--spacing);
-  padding-right: var(--spacing);
+  padding: 3rem 2rem;
   max-width: var(--max-width);
   margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .page-content {
+    padding: 2rem 1.25rem;
+  }
 }
 
 .page-header {
