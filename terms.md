@@ -5,7 +5,7 @@ title: Terms of Service
 
 # Terms of Service
 
-*Last updated: January 2026*
+*Last updated: February 2026*
 
 By using Leaflet, you agree to these terms. They're written in plain English because we want you to actually read them.
 
@@ -40,6 +40,15 @@ Please use Leaflet for personal, non-commercial purposes. Don't:
 - Scrape or harvest book data at scale
 - Reverse engineer the app
 - Use the service in ways that harm others
+
+---
+
+## Third-Party Data Sources
+
+Leaflet uses book metadata from the following sources:
+
+- [goodbooks-10k](https://github.com/zygmuntz/goodbooks-10k) by Zygmunt Zając — [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- [Amazon Kindle Books Dataset](https://www.kaggle.com/datasets/asaniczka/amazon-kindle-books-dataset-2023-130k-books) by asaniczka — [ODC-By](https://opendatacommons.org/licenses/by/1-0/)
 
 ---
 
