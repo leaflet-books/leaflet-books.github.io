@@ -45,10 +45,11 @@ Please use Leaflet for personal, non-commercial purposes. Don't:
 
 ## Third-Party Data Sources
 
-Leaflet uses book metadata from the following sources:
+Leaflet uses book metadata from various sources, including:
 
 - [goodbooks-10k](https://github.com/zygmuntz/goodbooks-10k) by Zygmunt Zając — [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - [Amazon Kindle Books Dataset](https://www.kaggle.com/datasets/asaniczka/amazon-kindle-books-dataset-2023-130k-books) by asaniczka — [ODC-By](https://opendatacommons.org/licenses/by/1-0/)
+- Additional public domain datasets and APIs
 
 ---
 
